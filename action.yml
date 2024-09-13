@@ -1,0 +1,4 @@
+name: Update dependencies and create PRs with violinist.io
+inputs:
+  token: 
+    description: A valid github token to use (for example a PAT)
