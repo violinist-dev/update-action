@@ -18,3 +18,4 @@ runs:
   steps: 
     - name: Debug
       run: echo ${{ inputs.token }}
+      shell: bash
