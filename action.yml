@@ -1,7 +1,7 @@
 name: 'Update'
 description: 'Update action'
 inputs:
- php_version:
+  php_version:
     type: string
     default: '8.3'
   composer_version:
