@@ -10,4 +10,4 @@ inputs:
 
 runs:
   using: 'docker'
-  image: ghcr.io/violinist-dev/update-check-runner:${{ inputs.php_version }}-multi-composer-${{ inputs.composer_version }}
+  image: "docker://ghcr.io/violinist-dev/update-check-runner:${{ inputs.php_version }}-multi-composer-${{ inputs.composer_version }}"
