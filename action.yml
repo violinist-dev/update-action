@@ -1,0 +1,13 @@
+name: 'Update'
+description: 'Update action'
+inputs:
+ php_version:
+    type: string
+    default: '8.3'
+  composer_version:
+    type: string
+    default: '2'
+
+runs:
+  using: 'docker'
+  image: ghcr.io/violinist-dev/update-check-runner:${{ inputs.php_version }}-multi-composer-${{ inputs.composer_version }}
