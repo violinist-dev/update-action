@@ -8,6 +8,10 @@ inputs:
     type: string
     default: '2'
 
+outputs:
+  json:
+    description: 'The JSON output from the update job'
+
 runs:
   using: 'docker'
   image: "Dockerfile"
