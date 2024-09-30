@@ -2,10 +2,10 @@
 
 echo 'json<<MY_SUPER_SPECIAL_DELIMETER_I_MEAN_WHO_KNOWS_WHATS_IN_PACKAGE_NAMES' >> $GITHUB_OUTPUT
 
-GIT_AUTHOR_NAME="${GIT_AUTHOR_NAME:-violinist-bot}"
-GIT_AUTHOR_EMAIL="${GIT_AUTHOR_EMAIL:-violinistdevio@gmail.com}"
-GIT_COMMITTER_NAME="${GIT_COMMITTER_NAME:-violinist-bot}"
-GIT_COMMITTER_EMAIL="${GIT_COMMITTER_EMAIL:-violinistdevio@gmail.com}"
+export GIT_AUTHOR_NAME="${GIT_AUTHOR_NAME:-violinist-bot}"
+export GIT_AUTHOR_EMAIL="${GIT_AUTHOR_EMAIL:-violinistdevio@gmail.com}"
+export GIT_COMMITTER_NAME="${GIT_COMMITTER_NAME:-violinist-bot}"
+export GIT_COMMITTER_EMAIL="${GIT_COMMITTER_EMAIL:-violinistdevio@gmail.com}"
 
 echo "$GIT_AUTHOR_NAME and $GIT_AUTHOR_EMAIL and $GIT_COMMITTER_NAME and $GIT_COMMITTER_EMAIL"
 
